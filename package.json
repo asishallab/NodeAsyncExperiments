@@ -1,0 +1,17 @@
+{
+  "name": "second-server-graphql",
+  "version": "1.0.0",
+  "description": "Schema as string",
+  "main": "index.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "author": "vsuaste",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.16.2",
+    "express-graphql": "^0.6.12",
+    "graphql": "^0.13.1",
+    "cors": "^2.8.4"
+  }
+}
