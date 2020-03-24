@@ -11,10 +11,14 @@ You can execute the following exeperiments.
 
 ```node server.js```
 
-### Async functions
+Then invoke GraphiQL in your browser http://localhost:3000/graphql.
 
-```node funkMaker.js```
+Query
 
-### Crypto true OS threads
+```
+{
+  countBooks(errorOrNot: true) 
+}
+```
 
-```node crypt.js```
+Note how the resolver `countBooks` does _not_ throw an error, but (benign) errors get returned in the GraphQL response as well as data!
