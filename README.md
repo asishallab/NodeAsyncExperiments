@@ -1,13 +1,12 @@
 # NodeAsyncExperiments
-Trying out access to a single object from many "parallel" async processes
 
-See [this question on Stackoverflow](https://stackoverflow.com/questions/60722673/can-concurrent-write-access-to-the-same-object-from-asynchronous-functions-cause) for more details.
+Experiments with GraphQL using the reference implementation.
 
-## Experiments
+## Experiment
 
-You can execute the following exeperiments.
+Try to return both `data` and `errors` in the GraphQL response without setting a field to an instance of Error. The idea is to find a different solution than the [standard one](https://stackoverflow.com/questions/52778096/how-to-return-both-error-and-data-in-a-graphql-resolver).
 
-### GraphQL
+Start the experiment with
 
 ```node server.js```
 
